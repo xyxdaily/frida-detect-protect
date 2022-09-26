@@ -1,8 +1,11 @@
 ## 介绍
 本项目的初衷是研究frida的检测与保护技术，可能会涉及到具体商业产品，如有侵权，请微信联系lovexyx2020删除。
 
-## apks
-apks目录里面放置了一些常见的检测apk，其中momo和hunter是目前未开源的两款优秀的检测项目
+## apk_all
+apk_all目录里面放置了一些常见的检测apk，其中momo和hunter是目前未开源的两款优秀的检测项目
+
+1. [[原创]一个检测手机环境的Demo 珍惜大佬的hunter](https://bbs.pediy.com/thread-274218.htm)
+2. [Riru-MomoHider](https://github.com/canyie/Riru-MomoHider)
 
 ## froda（课程相关，暂时未公开）
 首先这里感谢hluda的开源定制，因为froda是基于hluda，然后再定制了一些额外的字符串（frida:rpc等），以及线程名，绕过了常见的字符串检测。
@@ -30,8 +33,7 @@ apks目录里面放置了一些常见的检测apk，其中momo和hunter是目前
 
 ## 实例展示（均为最新版）
 
-1. taptap
+### taptap
 crack: 将froda版的gadget库放在system/lib64下，使用ptrace直接注入即可绕过
 改进建议：进行更深层次的inlinehook检测以及其它特征
-
 
