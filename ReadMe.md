@@ -33,7 +33,18 @@ apk_all目录里面放置了一些常见的检测apk，其中momo和hunter是目
 
 ## 实例展示（均为最新版）
 
-### taptap
+### tapt**
+version:2.34.0
 crack: 将froda版的gadget库放在system/lib64下，使用ptrace直接注入即可绕过
 改进建议：进行更深层次的inlinehook检测以及其它特征
+
+### *读免费小说
+version:5.0.1
+crack:干掉检测线程
+改进建议：双进程保护，保护检测线程
+
+### 快*阅读
+version:4.19.03
+crack:干掉检测线程
+改进建议：双进程保护，保护检测线程
 
