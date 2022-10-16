@@ -6,6 +6,7 @@ apk_all目录里面放置了一些常见的检测apk，其中momo和hunter是目
 
 1. [[原创]一个检测手机环境的Demo 珍惜大佬的hunter](https://bbs.pediy.com/thread-274218.htm)
 2. [Riru-MomoHider](https://github.com/canyie/Riru-MomoHider)
+3. 正在开发的检测apk---detectfridaxp
 
 ## froda（课程相关，暂时未公开）
 首先这里感谢hluda的开源定制，因为froda是基于hluda，然后再定制了一些额外的字符串（frida:rpc等），以及线程名，绕过了常见的字符串检测。
@@ -33,18 +34,38 @@ apk_all目录里面放置了一些常见的检测apk，其中momo和hunter是目
 
 ## 实例展示（均为最新版）
 
-### tapt**
-version:2.34.0
-crack: 将froda版的gadget库放在system/lib64下，使用ptrace直接注入即可绕过
-改进建议：进行更深层次的inlinehook检测以及其它特征
+汇总所有的frida反调试
+测试环境 android 12 pixel3axl magisk shamiko froda
 
-### *读免费小说
-version:5.0.1
-crack:干掉检测线程
-改进建议：双进程保护，保护检测线程
-
-### 快*阅读
-version:4.19.03
-crack:干掉检测线程
-改进建议：双进程保护，保护检测线程
+1. 菠萝包小说 4.8.90 com.sfacg
+2. i茅台 1.2.15 com.moutai.mall 
+3. 七读免费小说 5.0.1 com.dj.sevenRead
+4. 快点阅读 4.19.03 com.skyplatanus.crucio
+5. IQIYI Lite 2.8.6 com.qiyi.video.lite
+6. 网上国网 2.3.4 com.sgcc.wsgw.cn
+7. 得物 5.2.5 com.shizhuang.duapp
+8. 小红书 7.59.1 com.xingin.xhs
+9. 陌陌 9.5.5 com.immomo.momo
+10. 惠头条 4.5.8.9  com.cashtoutiao 
+11. taptap 2.36.0 com.taptap 强对抗 暂时未解决
+11. taptap 2.34.0 com.taptap 
+12. 省省回头车 7.0.1 com.huitouche.android.app
+13. 房天下 9.61 com.soufun.app
+14. 暗黑破坏神：不朽 1.5.4 com.netease.g67 弱
+15. 抖音 22.7.0 com.ss.android.ugc.aweme 弱
+16. APKSSR 3.4.3 com.dreamtee.apkfure 弱
+17. HiYa语音 4.22.0.1250 com.youyisia.peiwan 
+18. 冀云邯郸 1.9.6 com.pdmi.handan.media 弱
+19. 中行 7.6.1 com.chinamworld.bocmbci 弱
+20. 招行 10.4.0 cmb.pb 弱 
+21. 建行 5.5.9 com.chinamworld.main 弱
+22. 农行 6.6.1 com.android.bankabc 弱
+23. 贵旅优品 3.2.0 com.gzlex.hui.guoziwei.travel 弱 (shamiko模式会卡主界面)
+24. V-Appstore 8.98.80.0 com.bbk.appstore 弱
+25. 小豆苗 6.19.5 com.threegene.yeemiao 弱
+26. 应用宝 8.2.7 com.tencent.android.qqdownloader 弱
+27. 闲鱼 7.7.30 com.taobao.idlefish 弱
+28. soul 4.50.0 cn.soulapp.android 
+29. 捕鱼大咖 38 com.youkushengshi.buyudaka 
+30. 汽车之家 11.30.5 com.cubic.autohome
 
