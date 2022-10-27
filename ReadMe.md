@@ -37,6 +37,8 @@ apk_all目录里面放置了一些常见的检测apk，其中momo和hunter是目
 汇总所有的frida反调试
 测试环境 android 12 pixel3axl magisk shamiko froda
 
+注意：弱代表使用froda不退出，可以正常hook了。
+
 1. 菠萝包小说 4.8.90 com.sfacg
 2. i茅台 1.2.15 com.moutai.mall 
 3. 七读免费小说 5.0.1 com.dj.sevenRead
@@ -47,7 +49,7 @@ apk_all目录里面放置了一些常见的检测apk，其中momo和hunter是目
 8. 小红书 7.59.1 com.xingin.xhs
 9. 陌陌 9.5.5 com.immomo.momo
 10. 惠头条 4.5.8.9  com.cashtoutiao 
-11. taptap 2.36.0 com.taptap 强对抗 暂时未解决
+11. taptap 2.36.0 com.taptap 强对抗 
 11. taptap 2.34.0 com.taptap 
 12. 省省回头车 7.0.1 com.huitouche.android.app
 13. 房天下 9.61 com.soufun.app
@@ -68,4 +70,13 @@ apk_all目录里面放置了一些常见的检测apk，其中momo和hunter是目
 28. soul 4.50.0 cn.soulapp.android 
 29. 捕鱼大咖 38 com.youkushengshi.buyudaka 
 30. 汽车之家 11.30.5 com.cubic.autohome
-
+31. bilibili 7.1.2 tv.danmaku.bili
+32. 新漂流瓶 3.6.3 com.yilahuo.driftbottle 弱
+33. 哈啰 6.25.0 com.jingyao.easybike
+34. 国泰君安君弘 9.6.20 com.guotai.dazhihui
+35. 知到 4.7.8 com.able.wisdomtree 
+36. 恒生 5.7.5 com.hsbc.personalbanking.hacn.dev 弱
+37. 联想智选 5.3.9 com.lenovo.club.app 
+38. 快手免费小说 1.0.3.5 com.kuaishou.kgx.novel 弱
+39. Citic Bank 8.6.1 com.ecitic.bank.mobile 弱
+40. 星巴克 9.0.0 com.starbucks.cn 弱
