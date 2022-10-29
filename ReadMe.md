@@ -49,7 +49,7 @@ apk_all目录里面放置了一些常见的检测apk，其中momo和hunter是目
 8. 小红书 7.59.1 com.xingin.xhs
 9. 陌陌 9.5.5 com.immomo.momo
 10. 惠头条 4.5.8.9  com.cashtoutiao 
-11. taptap 2.36.0 com.taptap 强对抗 
+11. taptap 2.36.0 com.taptap 强对抗 暂时未解决
 11. taptap 2.34.0 com.taptap 
 12. 省省回头车 7.0.1 com.huitouche.android.app
 13. 房天下 9.61 com.soufun.app
@@ -69,7 +69,7 @@ apk_all目录里面放置了一些常见的检测apk，其中momo和hunter是目
 27. 闲鱼 7.7.30 com.taobao.idlefish 弱
 28. soul 4.50.0 cn.soulapp.android 
 29. 捕鱼大咖 38 com.youkushengshi.buyudaka 
-30. 汽车之家 11.30.5 com.cubic.autohome
+30. 汽车之家 11.30.5 com.cubic.autohome 弱
 31. bilibili 7.1.2 tv.danmaku.bili
 32. 新漂流瓶 3.6.3 com.yilahuo.driftbottle 弱
 33. 哈啰 6.25.0 com.jingyao.easybike
@@ -80,3 +80,6 @@ apk_all目录里面放置了一些常见的检测apk，其中momo和hunter是目
 38. 快手免费小说 1.0.3.5 com.kuaishou.kgx.novel 弱
 39. Citic Bank 8.6.1 com.ecitic.bank.mobile 弱
 40. 星巴克 9.0.0 com.starbucks.cn 弱
+41. 皮皮虾 4.3.0 com.sup.android.superb 弱
+42. 糗事百科 11.23.0 qsbk.app 弱
+43. 起点读书 7.9.252 com.qidian.QDReader 
