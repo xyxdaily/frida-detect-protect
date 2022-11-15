@@ -37,7 +37,7 @@ apk_all目录里面放置了一些常见的检测apk，其中momo和hunter是目
 汇总所有的frida反调试
 测试环境 android 12 pixel3axl magisk shamiko froda
 
-注意：弱代表使用froda不退出，可以正常hook了。
+注意：弱仅代表使用froda不退出，可以正常hook了。 说明app需要增强功能
 
 1. 菠萝包小说 4.8.90 com.sfacg
 2. i茅台 1.2.15 com.moutai.mall 
@@ -83,3 +83,8 @@ apk_all目录里面放置了一些常见的检测apk，其中momo和hunter是目
 41. 皮皮虾 4.3.0 com.sup.android.superb 弱
 42. 糗事百科 11.23.0 qsbk.app 弱
 43. 起点读书 7.9.252 com.qidian.QDReader 
+44. 南方航空 4.4.0 com.csair.mbp
+45. 盯链  1.9.2 net.dingblock.mobile 弱
+46. 融e生活 4.0.4 com.szicbc.mobile 弱
+47. 小黑盒 1.3.245 com.max.xiaoheihe 弱
+48. 悠悠优品 4.1.3 com.uu898.uuhavequality 弱
